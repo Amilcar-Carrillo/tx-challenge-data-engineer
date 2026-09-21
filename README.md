@@ -64,17 +64,19 @@ Desarrollado como parte del Reto Tecnico para Data Solutions Engineer en Tuxpas.
 
 ---
 
-## 3. Instrucciones de Ejecucion
+## 3. Instrucciones de Ejecución
 
-1. Clonar el repositorio y crear entorno virtual:
-   python -m venv .venv
-   .venv\Scripts\Activate.ps1
+1. **Clonar el repositorio y configurar el entorno:**
+   * `git clone [https://github.com/Amilcar-Carrillo/tx-challenge-data-engineer.git](https://github.com/Amilcar-Carrillo/tx-challenge-data-engineer.git)`
+   * `cd tx-challenge-data-engineer`
+   * `python -m venv .venv`
+   * `.venv\Scripts\Activate.ps1` (en Windows) o `source .venv/bin/activate` (en Linux/Mac)
 
-2. Instalar dependencias:
-   pip install -r requirements.txt
+2. **Instalar dependencias:**
+   * `pip install -r requirements.txt`
 
-3. Ejecutar pipeline completo y consultas analiticas:
-   python main.py
+3. **Ejecutar pipeline analítico y resolver preguntas de negocio:**
+   * `python main.py`
 
-4. Ejecutar pruebas unitarias:
-   pytest
+4. **Ejecutar suite de pruebas:**
+   * `pytest`
